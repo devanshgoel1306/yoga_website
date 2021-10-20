@@ -1,0 +1,65 @@
+/**/
+/*CSS- Cascading Sytle Sheets
+We should not write any html code in .css file.
+This single css file can be applied on several webpages.*/
+
+/*1. Used text-shadow to get the shadow.
+2. Used border for image
+3. Used box-shadow for image
+4. Used list-style-type to none to remove the bullets from the unordered list.
+5. Hover's background color to change when we hover the text.
+6. Used border-radius to round the corners for the background of h1.
+7. Used radial-gradient for body background.
+8. Used opacity property for image which ranges between 0 and 1.*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+body {
+  background-image: radial-gradient(circle, red, yellow, green);
+  font-size: 30px;
+}
+
+h1 {
+  text-shadow: 4px 4px 5px red;
+  color: blue;
+  text-align: center;
+  background-color: #8EDB7C;
+  border-radius: 25px;
+}
+
+h3{
+  color: #039BE5;
+}
+
+p {
+  font-size: 30px;
+}
+
+/*Adding the border to the image.*/
+img {
+  border: 5px solid #555;
+  box-shadow: 10px 10px #A5D6A7;
+  opacity: 0.8;
+}
